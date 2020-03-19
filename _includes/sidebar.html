@@ -2,8 +2,8 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{site.base_url}}">
-          {{ Bayesian-Learning }}
+        <a href="{{ site.base_url }}">
+          {{ site.title }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
@@ -28,7 +28,6 @@
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Background</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Paper Summary</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
