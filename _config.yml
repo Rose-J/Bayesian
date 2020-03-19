@@ -9,7 +9,7 @@ title:            Bayesian Learning
 tagline:          'A Jekyll theme'
 description:      'A study for bayesian learning'
 url:              https://rose-j.github.io/
-baseurl:          /baysian-learning/
+baseurl:          /bayesian-learning/
 
 author:
   name:           'Rose-J'
