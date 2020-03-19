@@ -8,8 +8,8 @@ permalink:        pretty
 title:            Bayesian Learning
 tagline:          'A Jekyll theme'
 description:      'A study for bayesian learning'
-url:              https://rose-j.github.io/bayesian-learning
-baseurl:          / #bayesian-learning/
+url:              https://rose-j.github.io/
+baseurl:          /bayesian-learning/
 
 author:
   name:           'Rose-J'
