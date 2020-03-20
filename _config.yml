@@ -1,6 +1,8 @@
-markdown:         redcarpet
-highlighter:      pygments
-
+markdown:         kramdown
+highlighter:      rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 
 # Setup
