@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-categories: about
 ---
 
 <p class="message">
