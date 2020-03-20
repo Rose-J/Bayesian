@@ -14,12 +14,11 @@
     {% endif %}
   </title>
 
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
+  
   <!-- CSS -->
-  {% comment %}
-  <link rel="stylesheet" href="{{ site.base_url }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.base_url }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.base_url }}public/css/hyde.css">
-  {% endcomment %}
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/poole.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/syntax.css">
   <link rel="stylesheet" href="{{ '/' | relative_url }}public/css/hyde.css">
