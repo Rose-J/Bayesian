@@ -15,9 +15,14 @@
   </title>
 
   <!-- CSS -->
+  {% comment %}
   <link rel="stylesheet" href="{{ site.base_url }}public/css/poole.css">
   <link rel="stylesheet" href="{{ site.base_url }}public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.base_url }}public/css/hyde.css">
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ public/css/poole.css | prepend: site.base_url }}">
+  <link rel="stylesheet" href="{{ public/css/syntax.css| prepend: site.base_url }}">
+  <link rel="stylesheet" href="{{ public/css/hyde.css | prepend: site.base_url }}">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
