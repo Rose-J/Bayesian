@@ -2,15 +2,15 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.base_url }}">
+        <a href="{{ '/' | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ "/"|relative_url }}</p>
+      <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/' | relative_url %} active{% endif %}" href="{{'/' | relative_url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -25,9 +25,10 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Background</a>
+      
+      {% comment %}
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">Paper Summary</a>
+      {% endcomment %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
