@@ -2,7 +2,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        /bayesian-learning/:categories/:year/:month/:day/:title/
+permalink:        pretty #/bayesian-learning/:categories/:year/:month/:day/:title/
 
 # Setup
 title:            Bayesian Learning
