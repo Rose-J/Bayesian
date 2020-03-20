@@ -2,7 +2,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /bayesian-learning/:categories/:year/:month/:day/:title/
 
 # Setup
 title:            Bayesian Learning
@@ -10,7 +10,7 @@ tagline:          'A Jekyll theme'
 description:      'A study for bayesian learning'
 url:              https://rose-j.github.io/
 baseurl:          /bayesian-learning/
-permalink:        /bayesian-learning/:categories/:year/:month/:day/:title/
+    
 
 author:
   name:           'Rose-J'
