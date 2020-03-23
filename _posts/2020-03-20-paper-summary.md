@@ -2,7 +2,6 @@
 layout: post
 title: Paper Summary Example
 categories: paper_summary
-use_math: true
 ---
 Test example for paper summary category
 
