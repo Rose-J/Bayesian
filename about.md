@@ -4,7 +4,7 @@ title: About
 ---
 
 
-The posts in this blog are written by [@hyemi](wkdal9512@gmail.com), [@uiwon](shinyflight@gmail.com) and [@jisoo](jmok908@gmail.com)
+The posts in this blog are written by [@hyemi](mail.hyemi), [@uiwon](mail.uiwon) and [@jisoo](mail.jisoo)
 
 ## Contents
 ### Background
