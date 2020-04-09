@@ -8,6 +8,6 @@ The posts in this blog are written by [@hyemi](wkdal9512@gmail.com), [@uiwon](sh
 
 ## Contents
 ### Background
-[1.Variational Inference](/background/2020/04/09/vi/)
+[1.Variational Inference]({{ "/" | relative_url }}/background/2020/04/09/vi/)
 
 ### Paper Summary
