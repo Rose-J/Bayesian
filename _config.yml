@@ -21,8 +21,11 @@ author:
 
 paginate:         5
 
-
-
 github:
-  repo:           https://github.com/Rose-J/Rose-J.github.io
-  bayesian:       https://github.com/Rose-J/bayesian-learning
+  repo:           https://github.com/Rose-J/bayesian-learning
+
+mail:
+  hyemi:          wkdal9512@gmail.com
+  uiwon:          shinyflight@gmail.com
+  jisoo:          jmok908@gmail.com
+  
