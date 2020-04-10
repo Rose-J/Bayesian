@@ -4,7 +4,7 @@ title: About
 ---
 
 
-The posts in this blog are written by [@hyemi](site.mail.hyemi), [@uiwon](site.mail.uiwon) and [@jisoo](site.mail.jisoo)
+The posts in this blog are written by [@hyemi]({{site.mail.hyemi}}), [@uiwon]({{site.mail.uiwon}}) and [@jisoo]({{site.mail.jisoo}})
 
 ## Contents
 ### Background
